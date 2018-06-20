@@ -14,6 +14,7 @@
 		D6A65FB620DA226900C9E5AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6A65FB420DA226900C9E5AC /* LaunchScreen.storyboard */; };
 		D6A65FC120DA226900C9E5AC /* yanzhengmaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A65FC020DA226900C9E5AC /* yanzhengmaTests.swift */; };
 		D6A65FCC20DA226900C9E5AC /* yanzhengmaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A65FCB20DA226900C9E5AC /* yanzhengmaUITests.swift */; };
+		D6A65FDA20DA22AF00C9E5AC /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A65FD920DA22AF00C9E5AC /* CodeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D6A65FC720DA226900C9E5AC /* yanzhengmaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yanzhengmaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6A65FCB20DA226900C9E5AC /* yanzhengmaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yanzhengmaUITests.swift; sourceTree = "<group>"; };
 		D6A65FCD20DA226900C9E5AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6A65FD920DA22AF00C9E5AC /* CodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				D6A65FAB20DA226500C9E5AC /* AppDelegate.swift */,
 				D6A65FAD20DA226500C9E5AC /* ViewController.swift */,
+				D6A65FD920DA22AF00C9E5AC /* CodeView.swift */,
 				D6A65FAF20DA226500C9E5AC /* Main.storyboard */,
 				D6A65FB220DA226900C9E5AC /* Assets.xcassets */,
 				D6A65FB420DA226900C9E5AC /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6A65FDA20DA22AF00C9E5AC /* CodeView.swift in Sources */,
 				D6A65FAE20DA226500C9E5AC /* ViewController.swift in Sources */,
 				D6A65FAC20DA226500C9E5AC /* AppDelegate.swift in Sources */,
 			);
